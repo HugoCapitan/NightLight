@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- Bootstrap Styles -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
+  <!-- NightLight Calendar Styles -->
+  <link rel="stylesheet" href="../dist/nightlight.css">
+</head>
+<body ng-app="App">
+
+  <div ng-controller="IndexController" class="container-fluid">
+    <h1>Example Calendar Usage</h1>
+    <nl-calendar></nl-calendar>      
+  </div>
+  
+  <!-- Dependencies -->
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/moment/moment.js"></script>
+  <!-- AngularJS -->
+  <script src="./angular.min.js"></script>
+  <!-- Bootstrap Ui -->
+  <script src="../node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+  <script src="../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+  <!-- NightLight Calendar -->
+  <script src="../dist/nightlight-tpls.js"></script>
+  <script src="../dist/nightlight.js"></script>
+
+  <!-- App -->
+  <script src="app.js"></script>
+
+
+</body>
+</html>

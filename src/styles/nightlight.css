@@ -1,0 +1,166 @@
+table {
+	margin: auto;
+}
+
+td.uib-day button {
+	padding: 5px 5px;
+  border: 1px transparent;
+  height: 30px;
+  border-radius: 20px;
+  width: 30px;
+  margin-top: 5px;
+  transition: .3s linear;
+}
+
+thead button:hover {
+	background-color: black !important;
+	border-color: black !important;
+	color: white !important;
+}
+
+.cal-center td.uib-day button:not([disabled]):hover {
+	background-color: #82d1b1;
+	color: #2e2e2e;
+	cursor: pointer;
+}
+
+.cal-center td.uib-day.highlight-ok button, .cal-center td.uib-day.arriving-selected button {
+	background-color: #82d1b1 !important;
+	color: #2e2e2e !important;
+}
+
+.cal-center td.uib-day.highlight-nope button {
+	background-color: #cc6666 !important;
+	color: #2e2e2e !important;
+}
+
+.cal-center td.uib-day.first-day button {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.cal-center td.uib-day.full-day button {
+	border-radius: 0 !important;
+}
+
+.cal-center td.uib-day.last-day button {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#steps-dates #arriving-calendars, #steps-dates #departure-calendars {
+	min-height: 310px;
+	padding-top: 10px;
+}
+
+.blur-inner {
+	width: 100%;
+	height: 100%;
+}
+
+.blur-left {
+	cursor: pointer;
+	position: absolute;
+	height: 313px;
+	width: 537px;
+	left: 210px;
+	transform: translate(-90%, 0);
+	top: -3px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+71,999999+100&1+71,0+100 */
+	background: -moz-linear-gradient(left, rgba(247,247,247,1) 71%, rgba(153,153,153,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(247,247,247,1) 71%,rgba(153,153,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(247,247,247,1) 71%,rgba(153,153,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#00999999',GradientType=1 ); /* IE6-9 */
+}
+
+.blur-left img{
+	position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0px;
+}
+
+.blur-right {
+	cursor: pointer;
+	position: absolute;
+  height: 313px;
+  width: 537px;
+  right: 210px;
+  transform: translate(90%, 0);
+  top: -3px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#999999+0,f7f7f7+29&0+0,1+29 */
+	background: -moz-linear-gradient(left, rgba(153,153,153,0) 0%, rgba(247,247,247,1) 29%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(153,153,153,0) 0%,rgba(247,247,247,1) 29%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(153,153,153,0) 0%,rgba(247,247,247,1) 29%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00999999', endColorstr='#f7f7f7',GradientType=1 ); /* IE6-9 */
+}
+
+.blur-right img{
+	position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0px;
+}
+
+.cal-center {
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.cal-hidden-left {
+	left: -500px;
+	opacity: 0;
+}
+
+.cal-hidden-right {
+	left: 120%;
+	opacity: 0;
+}
+
+.cal-left {
+	left: 0;
+	transform: translate(0, 0);
+	-webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.cal-right {
+	left: 100%;
+	transform: translate(-100%, 0);
+	-webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.uib-datepicker {
+	display: inline-block;
+	background-color: black;
+  border-color: black;
+  position: absolute;
+  transition: .3s linear;
+}
+
+.uib-datepicker>div {
+	display: inline-block;
+  outline: none;
+}
+
+.uib-datepicker>div>div {
+  outline: none;
+}
+
+.uib-left, .uib-right {
+	display: none;
+}
+
+.uib-title, .uib-day>button, .uib-day .btn-default:active, .uib-day .btn-default.active {
+	background-color: black;
+  color: white;
+  border-color: black;
+}
+

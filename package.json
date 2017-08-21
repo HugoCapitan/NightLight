@@ -1,0 +1,39 @@
+{
+  "name": "nightlight-calendar",
+  "version": "0.0.0",
+  "description": "A visually enhanced bootstrap calendar",
+  "main": "dist/nightlight.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoCapitan/NightLight.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "calendar",
+    "angularjs"
+  ],
+  "author": "HugoCapitan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoCapitan/NightLight/issues"
+  },
+  "homepage": "https://github.com/HugoCapitan/NightLight#readme",
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "gulp-html2string": "^0.1.1",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
