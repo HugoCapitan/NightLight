@@ -5,7 +5,7 @@ NightLight Calendar
 An visually enhanced bootstrap calendar
 
 ### Notice
-Package under construction.
+Package under construction, DOESN'T WORK.
 
 Live example coming soon
 
