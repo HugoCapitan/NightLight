@@ -28,10 +28,14 @@
 
     function link(scope, element, attrs) {}
   }
-  /* @ngInject */
+
   function nlCalendarController() {
     var vm = this;
 
-    vm.title = 'CALENDAR';
+    vm.date = new Date();
+
+    vm.calendarOptions = {
+      showWeeks: false
+    };
   }
 })();
